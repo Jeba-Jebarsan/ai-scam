@@ -2,10 +2,6 @@
   command = "npm run build"
   publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "22.16.0"
-  VITE_DEEPSEEK_API_KEY = sk-e263399cee6e4e91ac5cf379ace326db
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
